@@ -1,0 +1,133 @@
+
+body {
+  
+  background-color: #becbce; /* Color de fondo por defecto */
+}
+
+.card {
+  background-color: #bdb9b9;
+  
+  border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px;
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* Estilos para el div principal */
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* Estilos para el select */
+
+.search input[type="text"] {
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Estilos para las opciones del select */
+.select option {
+  padding: 8px;
+  font-size: 16px;
+}
+.select1 {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  
+ 
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+.select {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+.cardInfo {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin: 0;
+  text-decoration: none;
+}
+.selectt {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  float: left;
+  
+}
+.active {
+  background-color: rgb(170, 170, 198);
+}
+
+.selectt:hover {
+  background-color: #333;
+  color: #fff;
+}
+.container {
+  text-align: left;
+}
+.landingButton {
+  background-color:#201ac1;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+.landingButton:hover {
+  background-color:#3b393a;
+}
+
+
+  
+  

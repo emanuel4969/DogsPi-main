@@ -1,0 +1,38 @@
+/* Estilos para el div principal */
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* Estilos para el select */
+.select {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Estilos para las opciones del select */
+.select option {
+  padding: 8px;
+  font-size: 16px;
+}
+.landingButton {
+  background-color:#201ac1;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.landingButton:hover {
+  background-color: #3b393a;
+}

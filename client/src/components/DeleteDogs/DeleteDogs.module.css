@@ -1,0 +1,47 @@
+
+
+.landingButton {
+  background-color: #ad9aa6;
+  color: #0f0e0e;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+
+.landingButton:hover {
+  background-color: #ff0000;
+}
+.select {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 0;
+  background-color:  #c11d1a;
+  color: #121212;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.select:hover {
+  background-color:  #fa0505;
+}
+.dogsDetailContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.message {
+  color: rgb(28, 27, 27);
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin-left: auto;
+}
